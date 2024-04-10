@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISSUE</title>
+    
+    <link rel="stylesheet" href="issue.css">
+     
+  <link rel="stylesheet" href="issuefooter.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <!-- header -->
+  <header class="navbar">
+      <div class="logo"><img src="pic/home2.png"></div>
+      <ul class="navbar-list">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="story.html">STORY SHARING</a></li>
+        <li><a href="issue.html">ENVIRONMENT ISSUE</a></li>
+        <li><a href="login.html">JOIN US</a></li>
+        <li><a href="feedback.html">FEEDBACK</a></li>
+      </ul>
+      <div class="search">
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+        </svg>
+    </div>
+  </header>
+ 
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="pic/ice.jpg">
+                <div class="content">
+                    <div class="name">Climate Change</div>
+                    <div class="location">Melting polar ice caps</div>
+                    <div class="buttons">
+                      <button><a href="#crystal-section">SEE MORE</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="pic/panda.jpg">
+                <div class="content">
+                    <div class="name">Biodiversity Loss</div>
+                    <div class="location">Extinction of species</div>
+                    <div class="buttons">
+                      <button><a href="#crystal-section">SEE MORE</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="pic/polution.jpg">
+                <div class="content">
+                    <div class="name">Pollution</div>
+                    <div class="location">Air pollution (from industry, transportation, agriculture)</div>
+                    <div class="buttons">
+                      <button><a href="#crystal-section">SEE MORE</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="pic/wood.jpg">
+                <div class="content">
+                    <div class="name">Deforestation</div>
+                    <div class="location">Destruction of forests for agriculture, logging, and urbanization</div>
+                    <div class="buttons">
+                      <button><a href="#crystal-section">SEE MORE</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumbnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="pic/ice.jpg">
+                <div class="content">
+                    <div class="name">
+                      ICE
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="pic/panda.jpg">
+                <div class="content">
+                    <div class="name">
+                        PANDA
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="pic/polution.jpg">
+                <div class="content">
+                    <div class="name">
+                      POLUTION
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="pic/wood.jpg">
+                <div class="content">
+                    <div class="name">
+                      DEFORESTATION
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="issue.js"></script>
+    <div class="sec" id="crystal-section">
+      <h2>Climate Change</h2>
+      <div class="slideshow-container">
+  
+          <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="https://s.abcnews.com/images/International/polar-bear-01-file-gty-jef-210908_1631122552506_hpMain_16x9_1600.jpg" style="width:100%">
+          </div>
+  
+          <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="https://t3.ftcdn.net/jpg/05/85/02/12/360_F_585021294_e4suJRs3rUYvYiNeYUVNjyZCMqJhMfbc.jpg" style="width:100%">
+          </div>
+  
+          <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="https://i0.wp.com/yaleclimateconnections.org/wp-content/uploads/2023/02/0223_8-megadisasters-2020-2022_1600.jpg?fit=1200,675&ssl=1" style="width:100%">
+          </div>
+  
+      </div>
+      <br>
+  
+      <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+  
+      </div>
+      <br>
+      <div style="display: flex; align-items: center;">
+        <iframe data-aos="fade-right" width="4000" height="470" src="https://www.youtube.com/embed/QwLyscT3NgI?si=Yso8XzvWgB1glzI7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p data-aos="fade-left" style="margin-left: 20px; text-align: justify;">
+          Climate change is primarily driven by human activities such as burning fossil fuels, deforestation, industrial processes, agriculture, and land use changes. These activities release greenhouse gases like carbon dioxide and methane, trapping heat in the atmosphere and causing global warming, leading to detrimental impacts on ecosystems, weather patterns, and human societies.</p>
+    </div>
+    
+      <br><br><br><br><br><br>
+      <div style="border-bottom: 3px solid rgb(131, 160, 162); margin-bottom: 20px;"></div>
+    </div>
+  
+    <div class="sec" id="sec">
+      <h2>Extinction of species</h2>
+      <div class="slideshow-container1">
+  
+        <div class="mySlides1 fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://a-z-animals.com/media/animals/images/original/south_china_tiger.jpg" style="width:50%">
+        </div>
+  
+        <div class="mySlides1 fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://images.ctfassets.net/cnu0m8re1exe/6hIM0vFiDm1DDVD1KNp7Zn/0ccd745300c1f6dd74989c58875da2bc/Untitled_design_-_2023-08-23T104246.288.png" style="width:50%">
+        </div>
+  
+        <div class="mySlides1 fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://cdn.hswstatic.com/gif/polar-bear-7.jpg" style="width:50%">
+        </div>
+  
+    </div>
+    <br>
+  
+    <div style="text-align:center">
+        <span class="dot1"></span>
+        <span class="dot1"></span>
+        <span class="dot1"></span>
+  
+    </div>
+    <br>
+      <div style="display: flex; align-items: center;">
+        <p data-aos="fade-right" style="margin-left: 20px; margin-right: 20px; text-align: justify;">
+          The causes of animal extinction are diverse and often interconnected. They include habitat loss due to deforestation, pollution, climate change, overhunting or poaching, introduction of invasive species, and human activities such as urbanization and infrastructure development. These factors disrupt ecosystems, decrease biodiversity, and directly threaten the survival of many species.
+        </p>
+        <iframe width="5600" height="315" src="https://www.youtube.com/embed/e_YlaTrQVl8?si=TaUygVx3O3Wku4Ir" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <br /><br /><br /><br /><br /><br />
+      <div style="border-bottom: 3px solid rgb(131, 160, 162); margin-bottom: 20px;"></div>
+    </div>
+    <div class="sec" id="sec">
+      <h2>Type of Polution</h2>
+      <div class="slideshow-container2">
+  
+          <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="https://www.smartcity.co.nz/wp-content/uploads/2021/03/Air-pollution-city.jpg" style="width:50%">
+          </div>
+  
+          <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="https://thehill.com/wp-content/uploads/sites/2/2021/04/ca_water_pollution_environment.jpg?strip=1" style="width:50%">
+          </div>
+  
+          <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="https://www.iberdrola.com/documents/20125/40615/suelo_746x419.jpg/0c7d2a0c-f3a8-0ec0-9ad7-61f7fbf023b6?t=1627531595008" style="width:50%">
+          </div>
+  
+      </div>
+      <br>
+  
+      <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+  
+      </div>
+      <br>
+      <div style="display: flex; align-items: center;">
+        <iframe width="4500" height="450" src="https://www.youtube.com/embed/OqHp03RRTDs?si=SeWLbm4Yte0_yWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p data-aos="fade-left" style="margin-left: 20px; text-align: justify;">Pollution is caused by various human activities such as industrial emissions, vehicle exhaust, burning fossil fuels, agricultural practices, improper waste disposal, and deforestation. These activities release harmful substances such as greenhouse gases, particulate matter, toxic chemicals, and plastic waste into the air, water, and soil, leading to environmental degradation and health hazards.
+      </div>
+      <br><br><br><br><br><br>
+      <div style="border-bottom: 3px solid rgb(131, 160, 162); margin-bottom: 20px;"></div>
+    </div>
+    <div class="sec" id="sec">
+      <h2>Deforestation</h2>
+      <div class="slideshow-container3">
+  
+        <div class="mySlides2 fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://www.wwf.org.uk/sites/default/files/styles/social_share_image/public/2019-09/Medium_WW2128868.jpg?itok=R9fyCH9Z" style="width:50%">
+        </div>
+  
+        <div class="mySlides2 fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="https://images.ctfassets.net/ww1ie0z745y7/WdGd10RxjlotU7JStFtd3/10843d0fa440d0c09b9129e41e70690c/a08dfd18-gp0sturq7_medium_res-fire-moratorium-deforestation-and-fire-monitoring-in-the-amazon-in-august-2020.jpeg?w=1200&h=630&fit=fill" style="width:50%">
+        </div>
+  
+        <div class="mySlides2 fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2018/02/06044231/effect-2.jpg" style="width:50%">
+        </div>
+  
+    </div>
+    <br>
+  
+    <div style="text-align:center">
+        <span class="dot2"></span>
+        <span class="dot2"></span>
+        <span class="dot2"></span>
+  
+    </div>
+      <div style="display: flex; align-items: center;">
+        <iframe width="4500" height="400" src="https://www.youtube.com/embed/B5Fwl4P4EW8?si=WCZgwnzSlOdJ9PTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p data-aos="fade-left"style="margin-left: 20px; text-align: justify;">Deforestation arises from human activities such as agriculture, logging, and urban expansion. Clearing forests for farmland, timber extraction, and development diminishes vital habitats and reduces the number of trees that absorb carbon dioxide, exacerbating climate change. Economic interests often drive deforestation, impacting biodiversity, water cycles, and indigenous communities.
+        </p>
+      </div>
+      <br /><br /><br /><br /><br /><br />
+    </div>
+    
+  <!-- Footer -->
+  <footer class = "footer-distributed">
+    <div class = "footer-left">
+        <img src = "pic/home2.png" width = "100">
+        <p class = "footer-links">
+            <a href="index.html" class="link-1" target="_self">Home </a>
+            <a href="about.html" target="_self">ABOUT</a>
+            <a href="story.html" target="_self">STORYSHARING</a>
+            <a href="environment_issue.html" target="_self">ENVIRONMENT ISSUE</a>
+            <a href="login.html" target="_self">JOIN US</a>
+            <a href="feedback.html" target="_self">FEEDBACK</a>
+        </p>
+        <p class = "footer-company-name"> LIFE&copy;2024</p>
+    </div>
+
+    <div class = "footer-center">
+        <div>
+            <i class = "fas fa-map-marker-alt"></i>
+            <p><span>Jalan Universiti, Bandar Barat,</span>31900 Kampar, Perak.</p>
+        </div>
+        <div>
+            <i class = "fas fa-phone-alt"></i>
+            <p>+05-468 8888</p>
+        </div>
+        <div>
+            <i class = "fas fa-envelope"></i>
+            <p><a href = "https://www.utar.edu.my">saveEarth@life.com</a></p>
+        </div>
+    </div>
+
+    <div class = "footer-right">
+        <p class = "footer-company-about">
+            <span>About LIFE</span>
+            Save Our Earth.
+        </p>
+        <div class = "footer-icons">
+            <a href = "https://youtube.com"><i class = "fab fa-youtube"></i></a>
+            <a href = "https://tiktok.com"><i class = "fab fa-tiktok"></i></a>
+            <a href = "https://www.facebook.com"><i class = "fab fa-facebook-f"></i></a>
+            <a href = "https://instagram.com"><i class = "fab fa-instagram"></i></a>
+            <a href = "https://twitter.com"><i class = "fab fa-twitter"></i></a>
+            <a href = "https://reddit.com"><i class = "fab fa-reddit"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+<button id="back-to-top" style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+" title="Go to top"><img src="pic/arrow.png" style="
+    width: 60px;
+    height: auto;
+"></button>
+
+
+  <!---custom js file link-->
+  <script>
+    const backToTopButton = document.getElementById("back-to-top");
+
+    backToTopButton.style.display = "none";
+
+    window.addEventListener("scroll", function () {
+      if (document.documentElement.scrollTop > window.innerHeight / 2) {
+        backToTopButton.style.display = "block";
+      } else {
+        backToTopButton.style.display = "none";
+      }
+    });
+
+    backToTopButton.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+</script>
+
+
+</body>
+<script>
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 2500); // Change image every 2.5 seconds
+  }
+
+
+
+</script>
+
+<script>
+  let slideIndex1 = 0;
+  showSlides1();
+
+  function showSlides1() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides1");
+      let dots = document.getElementsByClassName("dot1");
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      slideIndex1++;
+      if (slideIndex1 > slides.length) { slideIndex1 = 1 }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex1 - 1].style.display = "block";
+      dots[slideIndex1 - 1].className += " active";
+      setTimeout(showSlides1, 2500); // Change image every 2.5 seconds
+  }
+
+
+
+</script>
+
+<script>
+  let slideIndex2 = 0;
+  showSlides2();
+
+  function showSlides2() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides2");
+      let dots = document.getElementsByClassName("dot2");
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      slideIndex2++;
+      if (slideIndex2 > slides.length) { slideIndex2 = 1 }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex2 - 1].style.display = "block";
+      dots[slideIndex2 - 1].className += " active";
+      setTimeout(showSlides2, 2500); // Change image every 2.5 seconds
+  }
+
+
+
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 3000,
+    once: true,
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</html>

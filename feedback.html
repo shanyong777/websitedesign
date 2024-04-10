@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <!-- Link to Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="feedback.css">
+    <!-- Other CSS files and styles -->
+</head>
+<body>
+    <a href="index.html" id="homeButton" class="fas fa-solid fa-house"></a> <!-- Home button with Font Awesome icon -->
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="post" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Feel Free to leave a feedback!</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="b4685b01-3dd9-47ea-ad94-c3642a9a01cd">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <input type="file" name="image">
+            <button type="submit" class="form-control btn btn-primary">Submit <img src="feedimg/arrow_icon.png" alt=""></button>
+        </form>
+        <div class="contact-right">
+            
+        </div>
+    </div>
+
+    <!-- Link to your custom JavaScript file -->
+    <script src="feedback.js"></script>
+</body>
+</html>

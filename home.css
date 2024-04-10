@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    z-index: 4;
+}
+
+.beauty {
+    text-align: center; /* Center align the content */
+    padding: 50px; /* Add padding for spacing */
+    background-color: #000000; /* Add a background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-top: 250px;
+}
+
+.beauty h1 {
+    font-size: 20px; /* Adjust the font size */
+    margin-bottom: 200px; /* Add spacing below the heading */
+    color: #c76868; /* Set the text color */
+}
+
+.beauty p {
+    font-size: 18px; /* Adjust the font size */
+    color: #df8585; /* Set the text color */
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1; /* Ensure the video stays behind other content */
+}
+
+.navbar {
+    width: 85%;
+    padding: 35px 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 4;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo-container {
+    margin-right: 20px;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.mute-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px; /* Adjust the width and height as needed */
+    height: 40px;
+    background-image: url('pic/mute.jpg'); /* Replace 'path/to/mute.jpg' with the path to your mute image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50);
+    text-align: center;
+    color: #97bb9c;
+    z-index: -1;
+    
+    
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    position: relative;
+    z-index: 9999;
+}
+
+.content p {
+    margin: 20px auto; /* Set top and bottom margins to 20px and center horizontally */
+    font-weight: 100; /* Set font weight to 100 */
+    line-height: 40px; /* Set line height to 25px */
+    font-size: 20px; /* Set font size to 20px */
+    margin-top: 20px; /* Add 20px margin to the top */
+    margin-bottom: 190px; /* Add 20px margin to the bottom */
+    
+}
+
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color:#fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover {
+    border: none;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+@media screen and (max-width : 600px)
+{
+    .content h1{
+        font-size: 30px;
+        margin-top: 45px;
+     }
+     .navbar {
+        width: 90%; /* Adjust the width to fit within 90% of the viewport width */
+        padding: 35px 0;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar ul li {
+        width: 30%; /* Two items per row with a little spacing */
+        margin: 6px; /* Add some margin for spacing between items */
+    }
+
+    
+}
+
+.chinese-food {
+  min-height: 120vh;
+  width: 100%;
+  background: #000000;
+  background-position: center;
+  background-size: cover;
+}
+
+.chinese h1 {
+  padding-top: 15px;
+  color:#d88787;
+  text-align: center;
+  font-size: 50px;
+}
+
+.chinese h5 {
+  padding-top: 15px;
+  color:#dd8d8d;
+  text-align: center;
+  font-size: 30px;
+}
+
+.chinese p {
+  text-align: center;
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #d19999;
+}
+
+.chinese-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: auto;
+  padding: 20px 10px;
+  height: 100%;
+
+}
+
+.chinese-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 0px;;
+  border-radius: 10px;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  overflow: hidden;
+}
+
+.row {
+  margin-top: 7%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chinese-col:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--main-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #back-to-top:hover {
+    background-color: var(--bg-color);
+    color: var(--main-color);
+    transform: scale(1.1);
+  }
+  
+  #back-to-top img {
+    width: 30px;
+    height: auto;
+  }
+
+
+  @media only screen and (max-width: 786px){
+    .nav-button{
+        display: none;
+    }
+    .nav-menu.responsive{
+        top: 100px;
+    }
+    .navbar{
+        position: absolute;
+        top: -800px;
+        display: flex;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.2);
+        width: 100%;
+        height: 90vh;
+        backdrop-filter: blur(20px);
+        transition: .3s;
+    }
+    .nav-menu ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-menu-btn{
+        display: block;
+    }
+    .nav-menu-btn i{
+        font-size: 25px;
+        color: #fff;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        cursor: pointer;
+        transition: .3s;
+    }
+    .nav-menu-btn i:hover{
+        background: rgba(255, 255, 255, 0.15);
+    }
+}
+@media only screen and (max-width: 540px) {
+    .wrapper{
+        min-height: 100vh;
+    }
+    .form-box{
+        width: 100%;
+        height: 500px;
+    }
+    .register-container, .login-container{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .register-container .two-forms{
+        flex-direction: column;
+        gap: 0;
+    }
+}
