@@ -120,8 +120,10 @@ nav .fa{
   height: 100vh;
   margin: 0;
   margin-top: -100px;
-  
+  margin-left: 700px;
+  width: 27%; /* Adjust the percentage as per your requirement */
 }
+
 #register-form .card-body {
   border: 5px solid rgba(255, 255, 255, 0.5); /* Add a transparent thicker border with smooth edges */
   padding: 20px; /* Add padding as needed */

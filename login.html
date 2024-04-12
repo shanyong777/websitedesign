@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<!-- Mirrored from uccd2323-asg.azurewebsites.net/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Apr 2024 15:42:16 GMT -->
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
     <link rel="icon" type="image/x-icon" href="pic/home2.png" />
     <link rel="stylesheet" type="text/css" href="login.css" />
-    <script
-      src="../kit.fontawesome.com/84870b3410.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="cookies.css">
+    <script src="https://kit.fontawesome.com/b74d1b524a.js" crossorigin="anonymous"></script>
     <link rel = "stylesheet" href = "footer.css">
     <link
       rel="stylesheet"
@@ -148,7 +147,7 @@
                 <a href="index.html" class="link-1" target="_self">Home </a>
                 <a href="about.html" target="_self">ABOUT</a>
                 <a href="story.html" target="_self">STORYSHARING</a>
-                <a href="environment_issue.html" target="_self">ENVIRONMENT ISSUE</a>
+                <a href="issue.html" target="_self">ENVIRONMENT ISSUE</a>
                 <a href="login.html" target="_self">JOIN US</a>
                 <a href="feedback.html" target="_self">FEEDBACK</a>
             </p>
@@ -184,7 +183,19 @@
                 <a href = "https://reddit.com"><i class = "fab fa-reddit"></i></a>
             </div>
         </div>
-        
+        <div id="cookies">
+          <div class="cookies-container">
+              <div class="cookies-subcontainer">
+                  <div class="cookies">
+                      <p>This webside uses cookies to ensure you get the best experience on our website.
+                          <a href="">More info</a>
+                      </p>
+                      <button id="cookies-btn">Comfirm</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <script src="cookies.js"></script>
 
 </footer>
   </body>
